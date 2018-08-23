@@ -11,6 +11,9 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(["dist"]),
-    new CopyWebpackPlugin(["src/manifest.json"])
+    new CopyWebpackPlugin([
+      "src/manifest.json",
+      "icons/*.png",
+    ])
   ]
 };
