@@ -4,6 +4,8 @@ Automatically saves/restores your draft comments on Github.
 
 [Chrome web store](https://chrome.google.com/webstore/detail/github-comment-draft/nckohkpmnocinomefhgnofbicepplojh)
 
+![githubcommentdraft-demo-prissue](https://user-images.githubusercontent.com/1630378/44536420-6091ae00-a737-11e8-97c2-663ab3677aaa.gif)
+
 ![githubcommentdraft-demo](https://user-images.githubusercontent.com/1630378/44530470-68e2ec80-a729-11e8-8164-b443bfc79591.gif)
 
 Originated from https://github.com/isaacs/github/issues/376
@@ -28,3 +30,6 @@ for(let i=0;i<localStorage.length;i++) {
 ```
 
 __Caveat: This plugin takes care of input in `<textarea />` only. It won't cover the github built in editors like https://github.com/Liooo/github-comment-draft/edit/master/README.md__
+
+
+PRs are welcome.
