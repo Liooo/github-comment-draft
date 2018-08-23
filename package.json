@@ -1,0 +1,27 @@
+{
+  "name": "github-comment-draft",
+  "version": "1.0.0",
+  "description": "Lets you stop whining over the long github comment loss",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "husky": "^1.0.0-rc.13",
+    "prettier": "^1.14.2",
+    "pretty-quick": "^1.6.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}

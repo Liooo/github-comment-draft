@@ -1,0 +1,14 @@
+{
+  "name": "Github Comment Draft",
+  "version": "1.0.0",
+  "description": "Lets you stop whining over the long github comment loss",
+  "manifest_version": 2,
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["https://github.com/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
