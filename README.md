@@ -1,6 +1,6 @@
 # Github Comment Draft
 
-Automatically saves/restores your draft comments on Github. 
+Automatically saves/restores your issue and PR draft comments on Github.
 
 [Chrome web store](https://chrome.google.com/webstore/detail/github-comment-draft/nckohkpmnocinomefhgnofbicepplojh)
 
