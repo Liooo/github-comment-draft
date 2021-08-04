@@ -11,7 +11,6 @@ function doShit(elem, pathname) {
 
   FOCUS_STYLES.forEach(({ key, value }) => {
     elem.style.setProperty(key, value, "important");
-    elem.nextElementSibling.style.setProperty(key, value, "important")
   });
   const draft = elem.value;
   if (!draft) {
@@ -21,8 +20,7 @@ function doShit(elem, pathname) {
   elem.addEventListener("blur", function() {
     FOCUS_STYLES.forEach(({ key, value }) => {
       elem.style.setProperty(key, "");
-      elem.nextElementSibling.style.setProperty(key, "")
-    })
+    });
   });
 
   elem.addEventListener("input", function(e) {
